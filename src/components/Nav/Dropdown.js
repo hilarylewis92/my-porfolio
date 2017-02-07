@@ -1,32 +1,28 @@
-import React, { Component } from 'react'
+import React from 'react';
 import { Link } from 'react-router'
-import { TweenLite, Linear } from 'gsap'
 
-export default class Dropdown extends Component {
+export default function Dropdown(props)  {
+  return (
+    <div role="nav" className='Dropdown' onClick={props.menuClicked}>
+      <Link to="/"
+        className='link'>
+        <li>Home</li>
+      </Link>
 
-  render() {
-    return (
-      <div role="nav" className='Dropdown'>
-        <li><Link to="/"
-          className='link'>
-          Home
-        </Link></li>
+      <Link to="/projects"
+        className='link right'>
+        <li>Projects</li>
+      </Link>
 
-        <li><Link to="/projects"
-          className='link right'>
-          Projects
-        </Link></li>
+      <Link to="/about"
+        className='link middle-nav right'>
+        <li>About</li>
+      </Link>
 
-        <li><Link to="/about"
-          className='link middle-nav right'>
-          About
-        </Link></li>
-
-        <li><Link to="/contact"
-          className='link right'>
-          Contact
-        </Link></li>
-      </div>
-    )
-  }
+      <Link to="/contact"
+        className='link right'>
+        <li>Contact</li>
+      </Link>
+    </div>
+  )
 }

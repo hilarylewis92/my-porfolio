@@ -6,7 +6,7 @@
 
 .hl-logo {
   position: fixed;
-  color: $blue-color;
+  color: $gray-color;
   left: 0;
   top: 0;
   z-index: 10;
@@ -19,6 +19,10 @@
 
 .hl-logo:hover {
   cursor: pointer;
+  color: $dark-blue-color;
+}
+
+.hamburger-menu:hover {
   color: $dark-blue-color;
 }
 

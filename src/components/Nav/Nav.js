@@ -4,7 +4,7 @@ import { Link } from 'react-router'
 import Hamburger from './Hamburger'
 import Dropdown from './Dropdown'
 
-export default class Nav extends Component {
+export default class Header extends Component {
   constructor() {
     super()
     this.state = {
@@ -14,13 +14,13 @@ export default class Nav extends Component {
 
   handleClick() {
     this.setState({
-        open: !this.state.open
+      open: !this.state.open
     })
   }
 
   render() {
     return (
-      <div role="nav" className='Nav'>
+      <div role="nav" className='Header'>
         <Link
           to='/'
           className='hl-logo'>
@@ -34,7 +34,7 @@ export default class Nav extends Component {
           height={10}
           strokeWidth={1}
           rotate={0}
-          color='#233B6E'
+          color='#BDC3C7'
           animationDuration={0.5}
           right={0}
         />
@@ -42,7 +42,9 @@ export default class Nav extends Component {
         <div className='menu'>
           {this.state.open ?
           <ul>
-            <Dropdown />
+            <Dropdown
+              menuClicked={this.handleClick.bind(this)}
+            />
           </ul>
         : null }
         </div>
