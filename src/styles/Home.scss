@@ -1,0 +1,21 @@
+.Home {
+  height: 100vh;
+}
+
+.hero-text {
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  margin: 10px;
+}
+
+h3 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: $gray-color;
+}
+
+.bold {
+  color: $dark-blue-color;
+  text-shadow: 1px 1px $gray-color;
+}
