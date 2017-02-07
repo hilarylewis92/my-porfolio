@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { TweenLite, Linear } from 'gsap'
 
-class Home extends Component {
+export default class Home extends Component {
   componentDidMount() {
     this.gsapHeroAnimation()
   }
@@ -46,5 +46,3 @@ class Home extends Component {
     )
   }
 }
-
-export default Home

@@ -1,9 +1,28 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
-import App from './components/App'
+import { render } from 'react-dom'
+import { BrowserRouter, Match, Miss } from 'react-router'
+
+import Nav from './components/Nav/Nav'
+import Home from './components/Home'
+import About from './components/About'
+import Projects from './components/Projects'
+import Contact from './components/Contact'
+
 import './styles/index.scss'
 
-ReactDOM.render(
-  <App />,
-  document.getElementById('root')
-)
+const Root = () => {
+  return (
+    <BrowserRouter>
+      <div>
+        <Nav />
+        <Match exactly pattern="/" component={Home} />
+        <Match exactly pattern="/about" component={About} />
+        <Match exactly pattern="/projects" component={Projects} />
+        <Match exactly pattern="/contact" component={Contact} />
+      </div>
+    </BrowserRouter>
+  )
+}
+export default Root
+
+render(<Root />, document.querySelector("#root"))
