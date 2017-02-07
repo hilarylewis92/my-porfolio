@@ -14,7 +14,7 @@
   letter-spacing: -4px;
   background: none;
   font-weight: 100;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .hl-logo:hover {
@@ -45,13 +45,62 @@
 
 .menu li {
   display: block;
-  padding: 15vh 0 0 0;
+  padding: 10vh 0 0 0;
   background: $white-color;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .menu li:hover {
   cursor: pointer;
   color: $dark-blue-color;
   transition-duration: 1.5s;
+}
+
+.single-contact {
+  display: inline-block;
+  margin: 20vh 10px;
+}
+
+.mail {
+  width: 40px;
+  height: 40px;
+  display: block;
+  background: url('../images/mail.png') no-repeat;
+}
+
+.mail:hover {
+  background-image: url('../images/mail-hover.png');
+}
+
+.linkedin {
+  width: 40px;
+  height: 40px;
+  display:block;
+  background: url('../images/linkedin.png') no-repeat;
+}
+
+.linkedin:hover {
+  background-image: url('../images/linkedin-hover.png');
+}
+
+.github {
+  width: 40px;
+  height: 40px;
+  display:block;
+  background: url('../images/github.png') no-repeat;
+}
+
+.github:hover {
+  background-image: url('../images/github-hover.png');
+}
+
+.twitter {
+  width: 40px;
+  height: 40px;
+  display:block;
+  background: url('../images/twitter.png') no-repeat;
+}
+
+.twitter:hover {
+  background-image: url('../images/twitter-hover.png');
 }

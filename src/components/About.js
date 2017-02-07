@@ -54,7 +54,7 @@ export default class About extends Component {
       <div className='About'>
         <img
           className='hilary-lewis-image'
-          src={require ('../hilary-lewis.jpg')}
+          src={require ('../images/hilary-lewis.jpg')}
           role='none'
         />
 
@@ -147,7 +147,7 @@ export default class About extends Component {
               activeClassName='active'
               className='resume-link button'
               target='_blank'>
-              View My Resume &rarr;
+              Resume &rarr;
             </Link>
           </section>
         </section>
