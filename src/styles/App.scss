@@ -22,3 +22,14 @@ a:hover {
 .active {
   color: $blue-color;
 }
+
+.button {
+  font-size: $button-font-size;
+  border: 2px solid;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+*:focus {
+  outline: none;
+}

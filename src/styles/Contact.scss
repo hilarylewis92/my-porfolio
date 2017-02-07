@@ -31,11 +31,12 @@
   .contact-section {
     width: 90%;
     margin-top: 120px;
+    font-size: $small-p-font-size;
   }
 
   .contact-title {
     margin: 20px;
-    font-size: 35px;
+    font-size: $small-title-font-size;
   }
 
   .contact-email {

@@ -37,10 +37,10 @@
 
 @media (max-width: 500px) {
   .title {
-    font-size: 35px;
+    font-size: $small-title-font-size;
   }
   .About {
-    font-size: 15px;
+    font-size: $small-p-font-size;
   }
   .heading {
     font-size: 20px;
