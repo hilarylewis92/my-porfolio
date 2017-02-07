@@ -30,9 +30,9 @@ export default class Nav extends Component {
         <Hamburger
           isOpen={this.state.open}
           menuClicked={this.handleClick.bind(this)}
-          width={28}
-          height={15}
-          strokeWidth={3}
+          width={20}
+          height={10}
+          strokeWidth={1}
           rotate={0}
           color='#233B6E'
           animationDuration={0.5}
