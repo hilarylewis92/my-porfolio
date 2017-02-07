@@ -12,10 +12,12 @@
 h3 {
   font-size: 30px;
   letter-spacing: 2px;
-  color: $gray-color;
+  color: $dark-blue-color;
+
+  // color: $gray-color;
 }
 
 .bold {
   color: $dark-blue-color;
-  text-shadow: 1px 1px $gray-color;
+  font-weight: 700;
 }

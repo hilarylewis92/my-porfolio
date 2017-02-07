@@ -14,26 +14,31 @@ class Home extends Component {
         lazy: true,
       }
     )
+    TweenLite.to('.light', 3,
+      {
+        opacity: 0.3,
+      }
+    )
   }
 
   render() {
     return (
       <div className='Home'>
         <section className='hero-text'>
-          <h3>
+          <h3 className='light'>
             Hilary Lewis.
           </h3>
-          <h3>
+          <h3 className='light'>
             Mathematical. Creative.
           </h3>
-          <h3>
+          <h3 className='light'>
             Teacher. Learner.
           </h3>
           <h3
             className='bold'>
             Front End Developer.
           </h3>
-          <h3>
+          <h3 className='light'>
             Denver, Colorado.
           </h3>
         </section>
