@@ -1,0 +1,55 @@
+.Nav {
+  letter-spacing: 2px;
+  color: $gray-color;
+  font-size: 25px;
+}
+
+.hl-logo {
+  position: fixed;
+  color: $blue-color;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  margin: 15px;
+  letter-spacing: -3px;
+  background: none;
+}
+
+.hl-logo:hover {
+  cursor: pointer;
+  color: $dark-blue-color;
+}
+
+/*dropdown*/
+.Dropdown {
+  width: 100vw;
+  height: 100vh;
+}
+
+.hamburger-menu {
+  z-index: 1000000;
+  margin: 20px;
+}
+
+.hamburger-menu:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.menu {
+  position: fixed;
+  z-index: 100;
+  text-align: center;
+}
+
+.menu li {
+  display: block;
+  padding: 15vh 0 0 0;
+  background: $white-color;
+}
+
+.menu li:hover {
+  cursor: pointer;
+  color: $dark-blue-color;
+  transition-duration: 1.5s;
+}

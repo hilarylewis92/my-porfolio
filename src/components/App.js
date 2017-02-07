@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import Home from './Home'
-import Nav from './Nav'
+import Nav from './Nav/Nav'
 
 class App extends Component {
   render() {
