@@ -1,12 +1,12 @@
 .Nav {
-  letter-spacing: 2px;
+  letter-spacing: $letter-spacing;
   color: $gray-color;
   font-size: 25px;
 }
 
 .hl-logo {
   position: fixed;
-  color: $gray-color;
+  color: $dark-blue-color;
   left: 0;
   top: 0;
   z-index: 10;
@@ -19,11 +19,6 @@
 
 .hl-logo:hover {
   cursor: pointer;
-  color: $dark-blue-color;
-}
-
-.hamburger-menu:hover {
-  color: $dark-blue-color;
 }
 
 /*dropdown*/

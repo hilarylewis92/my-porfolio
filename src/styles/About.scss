@@ -1,0 +1,124 @@
+.About {
+  color: $dark-blue-color;
+  letter-spacing: $letter-spacing;
+  font-size: $p-font-size;
+  line-height: 170%;
+  text-align: center;
+}
+/*hero*/
+
+.hilary-lewis-image {
+  margin: 50px 0 0 0;
+  height: 250px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #D3D6DB;
+  opacity: 0;
+}
+
+/*about summary*/
+.about-me {
+  text-align: left;
+  width: 70%;
+  margin: 70px auto;
+  opacity: 0;
+}
+
+@media (max-width: 700px) {
+  .about-me {
+    width: 90%;
+  }
+}
+
+.title {
+  padding: 30px 0;
+  text-align: center;
+  font-size: $title-font-size;
+}
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 35px;
+  }
+  .About {
+    font-size: 15px;
+  }
+  .heading {
+    font-size: 20px;
+  }
+}
+
+.summary {
+  margin-bottom: 100px;
+}
+
+/*experience*/
+.experience-list {
+  width: 70%;
+  float: left;
+}
+
+.single-experience{
+  padding: 20px 0;
+  width: 90%;
+  border-bottom: 1px solid;
+}
+
+.position {
+  font-weight: 700;
+}
+
+.company, .dates {
+  font-size: 15px;
+}
+@media (max-width: 520px) {
+  .experience-list {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .single-experience {
+    padding: 20px;
+  }
+}
+
+/*skills*/
+.skill-list{
+  width: 30%;
+  height: 80vh;
+  float: right;
+}
+
+.single-skill{
+  padding-top: 20px;
+}
+
+@media (max-width: 520px) {
+  .skill-list {
+    width: 100%;
+    float: left;
+  }
+  .single-skill{
+    display: inline-block;
+    padding: 20px;
+  }
+}
+/*about this website*/
+.about-website-section {
+  margin: 80px auto;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+/*resume button*/
+.resume-section {
+  margin: 80px;
+  text-align: center;
+  display: block;
+}
+
+/*resume page*/
+.Resume {
+  text-align: center;
+  letter-spacing: $letter-spacing;
+}
