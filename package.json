@@ -4,7 +4,9 @@
   "private": true,
   "devDependencies": {
     "custom-react-scripts": "0.0.23",
-    "gsap": "^1.19.1"
+    "gsap": "^1.19.1",
+    "masonry": "0.0.2",
+    "react-masonry-component": "^5.0.3"
   },
   "dependencies": {
     "history": "^4.3.0",

@@ -6,7 +6,7 @@
   position: absolute;
   bottom: 0;
   opacity: 0;
-  margin: 10px;
+  margin: 10px 40px;
 }
 
 h3 {
@@ -15,9 +15,12 @@ h3 {
   color: $dark-blue-color;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 780px) {
   h3 {
     font-size: 45px;
+  }
+  .hero-text {
+    margin: 10px;
   }
 }
 @media (max-width: 600px) {
