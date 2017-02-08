@@ -37,55 +37,53 @@ export default class Project extends Component {
   render() {
     const { index } = this.state
     return (
-      <div>
+      <div className='Project'>
         <section className='individual-project'>
-            <section className='project-left'>
-              <img
-                className='individual-project-image'
-                src={ProjectsList[index].src}
-                role='none'
-                />
+          <section className='project-left'>
+            <img
+              className='individual-project-image'
+              src={ProjectsList[index].src}
+              role='none'
+              />
 
-              <a
-                className='project-url'
-                href={ProjectsList[index].url}
-                target='_blank'>
-                View application
-              </a>
+            <a
+              className='project-url'
+              href={ProjectsList[index].url}
+              target='_blank'>
+              View application
+            </a>
 
-              <a
-                className='project-github'
-                href={ProjectsList[index].github}
-                target='_blank'>
-                View code
-              </a>
-            </section>
-
-            <section
-              className='project-right'>
-              <h1
-                className='project-title'>
-                {ProjectsList[index].title}
-              </h1>
-
-              <p
-                className='project-description'>
-                {ProjectsList[index].description}
-              </p>
-            </section>
+            <a
+              className='project-github'
+              href={ProjectsList[index].github}
+              target='_blank'>
+              View code
+            </a>
           </section>
 
           <section
-            className='project-button-section'>
+            className='project-right'>
+            <h1
+              className='project-title'>
+              {ProjectsList[index].title}
+            </h1>
+
+            <p
+              className='project-description'>
+              {ProjectsList[index].description}
+            </p>
           </section>
+        </section>
+
+        <section
+          className='project-button-section'>
+          <Link
+            to='/projects'
+            className='project-link button'>
+            &larr; Projects
+          </Link>
+        </section>
       </div>
     )
   }
 }
-
-
-// <Link
-//   to='/projects'
-//   className='project-link button'>
-//   &larr; Projects
-// </Link>
