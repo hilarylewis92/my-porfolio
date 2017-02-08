@@ -1,0 +1,40 @@
+.Home {
+  height: 100vh;
+}
+
+.hero-text {
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  margin: 10px 40px;
+}
+
+h3 {
+  font-size: 60px;
+  letter-spacing: $letter-spacing;
+  color: $dark-blue-color;
+}
+
+@media (max-width: 780px) {
+  h3 {
+    font-size: 45px;
+  }
+  .hero-text {
+    margin: 10px;
+  }
+}
+@media (max-width: 600px) {
+  h3 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 500px) {
+  h3 {
+    font-size: 30px;
+  }
+}
+.bold {
+  color: $dark-blue-color;
+  font-weight: 700;
+}

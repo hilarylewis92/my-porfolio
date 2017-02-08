@@ -1,0 +1,107 @@
+.Nav {
+  letter-spacing: $letter-spacing;
+  color: $gray-color;
+  font-size: 25px;
+}
+
+.hl-logo {
+  position: fixed;
+  color: $dark-blue-color;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  margin: 25px;
+  letter-spacing: -4px;
+  background: none;
+  font-weight: 100;
+  font-size: 25px;
+}
+
+.hl-logo:hover {
+  cursor: pointer;
+}
+
+/*dropdown*/
+.Dropdown {
+  width: 100vw;
+  height: 100vh;
+}
+
+.hamburger-menu {
+  z-index: 1000000;
+  margin: 30px;
+}
+
+.hamburger-menu:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.menu {
+  position: fixed;
+  z-index: 100;
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.menu li {
+  display: block;
+  padding: 10vh 0 0 0;
+  background: $white-color;
+  font-size: 30px;
+}
+
+.menu li:hover {
+  cursor: pointer;
+  color: $dark-blue-color;
+  transition-duration: 1.5s;
+}
+
+.single-contact {
+  display: inline-block;
+  margin: 10vh 0px;
+}
+
+.mail {
+  width: 44px;
+  height: 44px;
+  display: block;
+  background: url('../images/mail.png') no-repeat;
+}
+
+.mail:hover {
+  background-image: url('../images/mail-hover.png');
+}
+
+.linkedin {
+  width: 44px;
+  height: 44px;
+  display:block;
+  background: url('../images/linkedin.png') no-repeat;
+}
+
+.linkedin:hover {
+  background-image: url('../images/linkedin-hover.png');
+}
+
+.github {
+  width: 44px;
+  height: 44px;
+  display:block;
+  background: url('../images/github.png') no-repeat;
+}
+
+.github:hover {
+  background-image: url('../images/github-hover.png');
+}
+
+.twitter {
+  width: 44px;
+  height: 44px;
+  display:block;
+  background: url('../images/twitter.png') no-repeat;
+}
+
+.twitter:hover {
+  background-image: url('../images/twitter-hover.png');
+}
