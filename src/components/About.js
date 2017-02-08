@@ -19,12 +19,12 @@ export default class About extends Component {
       experience: [
         {
           company: 'Turing School of Software and Design',
-          position: 'Front-End Web Developer',
+          position: 'Front End Web Developer',
           dates: '(Aug 2016 - Current)'
         },
         {
           company: 'Manitou Springs School District',
-          position: 'Math Instructor',
+          position: 'Math Teacher',
           dates: '(Aug 2014 - May 2016)'
         },
         {

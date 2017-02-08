@@ -41,12 +41,11 @@
   position: fixed;
   z-index: 100;
   text-align: center;
-  margin-top: 10vh;
 }
 
 .menu li {
   display: block;
-  padding: 10vh 0 0 0;
+  padding-top: 15vh;
   background: $white-color;
   font-size: 30px;
 }
@@ -59,12 +58,13 @@
 
 .single-contact {
   display: inline-block;
-  margin: 10vh 0px;
+  margin-top: 10vh;
+  padding: 2px
 }
 
 .mail {
-  width: 44px;
-  height: 44px;
+  width: $icon-size;
+  height: $icon-size;
   display: block;
   background: url('../images/mail.png') no-repeat;
 }
@@ -74,8 +74,8 @@
 }
 
 .linkedin {
-  width: 44px;
-  height: 44px;
+  width: $icon-size;
+  height: $icon-size;
   display:block;
   background: url('../images/linkedin.png') no-repeat;
 }
@@ -85,8 +85,8 @@
 }
 
 .github {
-  width: 44px;
-  height: 44px;
+  width: $icon-size;
+  height: $icon-size;
   display:block;
   background: url('../images/github.png') no-repeat;
 }
@@ -96,8 +96,8 @@
 }
 
 .twitter {
-  width: 44px;
-  height: 44px;
+  width: $icon-size;
+  height: $icon-size;
   display:block;
   background: url('../images/twitter.png') no-repeat;
 }
