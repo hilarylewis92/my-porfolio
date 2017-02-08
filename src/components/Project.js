@@ -77,13 +77,15 @@ export default class Project extends Component {
 
           <section
             className='project-button-section'>
-            <Link
-              to='/projects'
-              className='project-link button'>
-               &larr; Projects
-            </Link>
           </section>
       </div>
     )
   }
 }
+
+
+// <Link
+//   to='/projects'
+//   className='project-link button'>
+//   &larr; Projects
+// </Link>

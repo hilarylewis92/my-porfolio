@@ -41,13 +41,14 @@
   position: fixed;
   z-index: 100;
   text-align: center;
+  margin-top: 10vh;
 }
 
 .menu li {
   display: block;
   padding: 10vh 0 0 0;
   background: $white-color;
-  font-size: 45px;
+  font-size: 30px;
 }
 
 .menu li:hover {
@@ -58,7 +59,7 @@
 
 .single-contact {
   display: inline-block;
-  margin: 20vh 0px;
+  margin: 10vh 0px;
 }
 
 .mail {

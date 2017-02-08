@@ -48,8 +48,7 @@ export default class Projects extends Component {
                   key={project.id}>
                   <Link
                     to={`/projects/${project.id}`}
-                    >
-
+                    target='_blank'>
                     <img
                       className='project-image'
                       src={project.src}
