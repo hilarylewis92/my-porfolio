@@ -32,9 +32,9 @@ export default class Header extends Component {
           menuClicked={this.handleClick.bind(this)}
           width={25}
           height={15}
-          strokeWidth={1}
+          strokeWidth={2}
           rotate={0}
-          color='#2C3E50'
+          color='#4F6367'
           animationDuration={0.5}
           right={0}
         />

@@ -7,16 +7,21 @@ export default class Home extends Component {
   }
 
   gsapHeroAnimation() {
-    TweenLite.to('.hero-text', 1,
+    TweenLite.to('.hero-text', 1.5,
       {
         top: 200,
         opacity: 1,
         lazy: true,
       }
     )
-    TweenLite.to('.light', 3,
+    TweenLite.to('.light', 4,
       {
-        opacity: 0.3,
+        opacity: 0.2,
+      }
+    )
+    TweenLite.to('.red', 4,
+      {
+        color: '#FE5F55',
       }
     )
   }
@@ -36,7 +41,7 @@ export default class Home extends Component {
           </h3>
           <h3
             className='bold'>
-            Front End Developer.
+            Front End <span className='red'>Developer.</span>
           </h3>
           <h3 className='light'>
             Denver, Colorado.

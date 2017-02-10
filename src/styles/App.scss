@@ -1,7 +1,8 @@
 *, html {
-  background-color: $white-color;
+  background-color: white;
   letter-spacing: $letter-spacing;
-  font: 100% $font-stack;
+  // font: 100% $font-stack;
+  font: 100% $second-font-family;
 }
 
 body {
@@ -9,18 +10,14 @@ body {
 }
 
 a {
-  color: $gray-color;
+  color: $dark-blue-color;
   text-decoration: none;
   transition: 0.5s ease-in-out;
 }
 
 a:hover {
-  color: $dark-blue-color;
+  color: $red-color;
   text-decoration: none;
-}
-
-.active {
-  color: $blue-color;
 }
 
 .button {

@@ -46,20 +46,19 @@
 .menu li {
   display: block;
   padding-top: 15vh;
-  background: $white-color;
+  background: white;
   font-size: 30px;
-}
-
-.menu li:hover {
-  cursor: pointer;
-  color: $dark-blue-color;
-  transition-duration: 1.5s;
 }
 
 .single-contact {
   display: inline-block;
   margin-top: 10vh;
   padding: 2px
+}
+
+.single-contact:hover {
+  cursor: pointer;
+  transition-duration: 1s ease-in-out;
 }
 
 .mail {
