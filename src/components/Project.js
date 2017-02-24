@@ -20,13 +20,7 @@ export default class Project extends Component {
   }
 
   gsapProjectsAnimation() {
-    TweenLite.to('.individual-project', 1,
-      {
-        opacity:1,
-        ease:Linear.easeNone
-      }
-    )
-    TweenLite.to('.project-button-section', 1,
+    TweenLite.to('.Project', 1.5,
       {
         opacity:1,
         ease:Linear.easeNone
@@ -38,50 +32,47 @@ export default class Project extends Component {
     const { index } = this.state
     return (
       <div className='Project'>
-        <section className='individual-project'>
-          <section className='project-left'>
-            <img
-              className='individual-project-image'
-              src={ProjectsList[index].src}
-              role='none'
-              />
-
-            <a
-              className='project-url'
-              href={ProjectsList[index].url}
-              target='_blank'>
-              View application
-            </a>
-
-            <a
-              className='project-github'
-              href={ProjectsList[index].github}
-              target='_blank'>
-              View code
-            </a>
-          </section>
-
-          <section
-            className='project-right'>
-            <h1
-              className='project-title'>
-              {ProjectsList[index].title}
-            </h1>
-
-            <p
-              className='project-description'>
-              {ProjectsList[index].description}
-            </p>
-          </section>
+        <section className='project-left'>
+          <img
+            className='individual-project-image'
+            src={ProjectsList[index].src}
+            role='none'
+            />
         </section>
 
         <section
-          className='project-button-section'>
-          <Link
-            to='/projects'
-            className='project-link button'>
-            &larr; Projects
-          </Link>
+          className='project-right'>
+          <h1
+            className='project-title'>
+            {ProjectsList[index].title}
+          </h1>
+
+          <p
+            className='project-description'>
+            {ProjectsList[index].description}
+          </p>
+
+          <a
+            className='project-url'
+            href={ProjectsList[index].url}
+            target='_blank'>
+            View application
+          </a>
+
+          <a
+            className='project-github'
+            href={ProjectsList[index].github}
+            target='_blank'>
+            View code
+          </a>
+          <section
+            className='project-button-section'>
+            <Link
+              to='/projects'
+              className='project-link button'>
+              &larr; Projects
+            </Link>
+          </section>
         </section>
       </div>
     )
