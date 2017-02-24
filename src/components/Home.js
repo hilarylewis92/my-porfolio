@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { TweenLite, Linear } from 'gsap'
 
+import Footer from './Footer.js'
+
 export default class Home extends Component {
   componentDidMount() {
     this.gsapHeroAnimation()
@@ -47,6 +49,9 @@ export default class Home extends Component {
             Denver, Colorado.
           </h3>
         </section>
+        <div className='home-footer'>
+          <Footer />
+        </div>
       </div>
     )
   }

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router'
+import Footer from '../Footer.js'
 
 export default function Dropdown(props)  {
   return (
@@ -23,34 +24,7 @@ export default function Dropdown(props)  {
         className='link right'>
         <li>Contact</li>
       </Link>
-      <section className='Footer'>
-        <div className='single-contact'>
-          <a href='mailto:hilarylewis92@gmail.com'
-            className='mail'>
-          </a>
-        </div>
-
-        <div className='single-contact'>
-          <a href='https://www.linkedin.com/in/hilarylewis92'
-            target='_blank'
-            className='linkedin'>
-          </a>
-        </div>
-
-        <div className='single-contact'>
-          <a href='https://github.com/hilarylewis92'
-            target='_blank'
-            className='github'>
-          </a>
-        </div>
-
-        <div className='single-contact'>
-          <a href='https://twitter.com/hilarylewis92'
-            target='_blank'
-            className='twitter'>
-          </a>
-        </div>
-      </section>
+      <Footer />
     </div>
   )
 }

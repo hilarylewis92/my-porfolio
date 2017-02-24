@@ -45,7 +45,7 @@ const ProjectsList = [
   },
 
   {url: 'https://hilarylewis92.github.io/2DoBox-Pivot/',
-    src: require('../images/2-do-box.png'),
+    src: require('../images/game-time.png'),
     title: '2Do Box',
     name: '2do-box',
     description:'This is a simple to-do list application. The user can enter in tasks, updown or downvote them based on five levels of importance, delete tasks, and more. We used Selenium Webdriver to extensively test this application.',

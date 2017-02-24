@@ -21,15 +21,16 @@
 
 /*single projects*/
 .single-project {
-  box-shadow: 0px 0px 5px $gray-color;
+  // border: 0.5px solid $gray-color;
+  // box-shadow: 0px 0px 5px $gray-color;
   width: 30%;
   margin: 10px;
   transition: left 0.5s;
-  padding: 5px;
+  // padding: 5px;
 }
 
 .single-project:hover {
-  box-shadow: 0px 0px 10px black;
+  box-shadow: 0px 0px 10px $gray-color;
   cursor: pointer;
   transition: 0.5s;
 }
