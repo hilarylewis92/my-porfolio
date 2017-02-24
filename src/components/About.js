@@ -7,13 +7,13 @@ export default class About extends Component {
     super()
     this.state = {
       skills: [
-        'React',
+        'React/Redux',
         'JavaScript',
         'jQuery',
+        'Node.js',
         'React-Router',
         'CSS/SASS',
         'HTML',
-        'Redux',
         'Git/GitHub'
       ],
       experience: [
