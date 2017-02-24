@@ -7,13 +7,13 @@ export default class About extends Component {
     super()
     this.state = {
       skills: [
-        'React',
+        'React/Redux',
         'JavaScript',
         'jQuery',
+        'Node.js',
         'React-Router',
         'CSS/SASS',
         'HTML',
-        'Redux',
         'Git/GitHub'
       ],
       experience: [
@@ -111,6 +111,24 @@ export default class About extends Component {
           })}
         </section>
 
+        <section className='education'>
+          <h3 className='education-title'>
+            EDUCATION
+          </h3>
+          <h4 className='education-school'>
+            Baylor University, Texas
+          </h4>
+          <h5 className='education-degree'>
+            B.S. Mathematics
+          </h5>
+          <h4 className='education-school'>
+            Turing School of Software and Design
+          </h4>
+          <h5 className='education-degree'>
+            Front End Development
+          </h5>
+        </section>
+
         <section
           className='about-website-section'>
           <h4 className='about-website-heading heading'>
@@ -132,18 +150,14 @@ export default class About extends Component {
                Create React App
             </a>.
 
-            I used SASS for styling and responsiveness. Fonts are served through <a href ='https://fonts.google.com/'
+            I used SASS for styling and responsiveness and fonts are served through <a href ='https://fonts.google.com/'
               target='_blank'
               className='underline'>
                Google Fonts
-            </a> and photos are served through <a href ='https://unsplash.com/'
-              target='_blank'
-              className='underline'>
-               Unsplash
             </a>. To see the code I developed for this website, visit <a href = 'https://github.com/hilarylewis92/my-porfolio'
               className='underline'
               target='_blank'>
-               github
+               my github
             </a>.
           </p>
         </section>

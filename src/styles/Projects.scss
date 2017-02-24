@@ -1,14 +1,14 @@
 .Projects {
   letter-spacing: $letter-spacing;
   color: $dark-blue-color;
-  text-align: center;
-  margin: 50px;
   opacity: 0;
+  width: 100vw;
   position: absolute;
 }
 
 /*list of projects*/
 .projects-title {
+  text-align: center;
   margin: 50px auto;
   font-size: $title-font-size;
 }
@@ -21,15 +21,14 @@
 
 /*single projects*/
 .single-project {
-  box-shadow: 0px 0px 5px $gray-color;
+  border: 5px solid $dark-blue-color;
   width: 30%;
   margin: 10px;
   transition: left 0.5s;
-  padding: 5px;
 }
 
 .single-project:hover {
-  box-shadow: 0px 0px 10px black;
+  box-shadow: 0px 0px 10px $gray-color;
   cursor: pointer;
   transition: 0.5s;
 }
@@ -60,167 +59,93 @@
 }
 
 /*individual project*/
-// .individual-project {
-//   width: 100vw;
-//   height: 100vh;
-//   opacity: 0;
-//   position: absolute;
-// }
-//
-// .project-left {
-//   width: 50%;
-//   display: inline-block;
-//   float: left;
-// }
-//
-// .individual-project-image {
-//   width: 450px;
-//   margin: 150px 50px 0 50px;
-//   border: 5px solid $gray-color;
-// }
-//
-// .project-right {
-//   letter-spacing: $letter-spacing;
-//   color: $dark-blue-color;
-//   font-size: $p-font-size;
-//   line-height: 170%;
-// }
-//
-// .project-title {
-//   font-size: $title-font-size;
-//   line-height: 110%;
-//   margin: 150px 30px 5px 0;
-// }
-//
-// .project-description {
-//   margin: 0px 50px 150px 20px;
-// }
-//
-// .project-url, .project-github {
-//   display: block;
-//   letter-spacing: $letter-spacing;
-//   font-size: $p-font-size;
-//   height: 40px;
-//   width: 100%;
-//   margin-left: 55px;
-// }
-//
-// .project-button-section {
-//   text-align: center;
-//   opacity: 1;
-//   position: relative;
-// }
-//
-//
-// @media (max-width: 1030px) {
-//   .individual-project {
-//     width: 100vw;
-//     text-align: center;
-//     height: 100%;
-//   }
-//   .individual-project-image {
-//     width: 560px;
-//     margin-bottom: 10px;
-//   }
-//   .project-url, .project-github {
-//     display: block;
-//     height: 40px;
-//     width: 100%;
-//     margin: 0px;
-//   }
-//   .project-left {
-//     width: 100%;
-//     height: 100%;
-//     margin: auto;
-//   }
-//   .project-right {
-//     width: 80%;
-//     height: 100%;
-//     margin: auto;
-//     text-align: left;
-//   }
-//   .project-title {
-//     margin: auto;
-//   }
-//   .project-description {
-//     height: 100%;
-//     margin: auto;
-//   }
-//   .project-button-section {
-//     margin: auto;
-//     text-align: center;
-//   }
-// }
-
 .Project {
-  height: 100vh;
-  width: 100vw;
-  letter-spacing: $letter-spacing;
-}
-
-.individual-project {
-  width: 90%;
-  text-align: center;
-  margin: auto;
+  opacity: 0;
 }
 
 .project-left {
-  padding: 100px 50px 0px 50px;
+  background-color: $blue-color;
+  width: 50%;
+  display: inline-block;
+  float: left;
+  height: 100vh;
 }
 
 .individual-project-image {
-  width: 75%;
-  text-align: center;
+  margin-top: 20vh;
+  width: 90%;
+  margin-left: 5%;
+  border: 5px solid $dark-blue-color;
+}
+
+.project-right {
+  width: 50%;
+  float: right;
+  letter-spacing: $letter-spacing;
+  color: $dark-blue-color;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.project-title {
+  margin: 20vh 10px 10px 10px;
+  font-size: 30px;
+  line-height: 110%;
+}
+
+.project-description {
+  margin: 10px 10px 40px 10px;
 }
 
 .project-url, .project-github {
   display: block;
-  margin: 15px;
-  font-size: $p-font-size;
-}
-
-.project-right {
-  padding: 20px 50px;
-  text-align: left;
-}
-
-.project-title {
-  font-size: $title-font-size;
-  padding-bottom: 20px;
-}
-
-.project-description {
-  font-size: $p-font-size;
+  letter-spacing: $letter-spacing;
+  font-size: 18px;
+  margin: 10px;
 }
 
 .project-button-section {
-  text-align: center;
-  padding: 50px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 20vw;
+  margin-bottom: 30px;
 }
 
-@media (min-width: 850px) {
-  .individual-project {
-    width: 75%;
-  }
-}
-
-@media (max-width: 600px) {
+@media (max-width: 670px) {
   .individual-project-image {
-    width: 90%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 85%;
   }
-
-  .individual-project {
+  .project-left {
+    margin-top: 60px;
+    display:block;
     width: 100%;
+    height: 100%;
+    // background-color: white;
   }
-  .project-url, .project-github {
-    font-size: $small-p-font-size;
+  .project-right {
+    display: block;
+    width: 100%;
   }
 
   .project-title {
-    font-size: $small-title-font-size;
+    margin: 10px;
   }
 
   .project-description {
-    font-size: $small-p-font-size;
+    margin: 10px;
+    width: 100%;
+  }
+
+  .project-url, .project-github {
+    margin: 10px;
+  }
+
+  .project-button-section {
+    position: relative;
+    margin: 20px;
+    text-align: center;
   }
 }

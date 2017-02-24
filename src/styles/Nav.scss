@@ -46,62 +46,6 @@
 .menu li {
   display: block;
   padding-top: 15vh;
-  background: $white-color;
+  background: white;
   font-size: 30px;
-}
-
-.menu li:hover {
-  cursor: pointer;
-  color: $dark-blue-color;
-  transition-duration: 1.5s;
-}
-
-.single-contact {
-  display: inline-block;
-  margin-top: 10vh;
-  padding: 2px
-}
-
-.mail {
-  width: $icon-size;
-  height: $icon-size;
-  display: block;
-  background: url('../images/mail.png') no-repeat;
-}
-
-.mail:hover {
-  background-image: url('../images/mail-hover.png');
-}
-
-.linkedin {
-  width: $icon-size;
-  height: $icon-size;
-  display:block;
-  background: url('../images/linkedin.png') no-repeat;
-}
-
-.linkedin:hover {
-  background-image: url('../images/linkedin-hover.png');
-}
-
-.github {
-  width: $icon-size;
-  height: $icon-size;
-  display:block;
-  background: url('../images/github.png') no-repeat;
-}
-
-.github:hover {
-  background-image: url('../images/github-hover.png');
-}
-
-.twitter {
-  width: $icon-size;
-  height: $icon-size;
-  display:block;
-  background: url('../images/twitter.png') no-repeat;
-}
-
-.twitter:hover {
-  background-image: url('../images/twitter-hover.png');
 }

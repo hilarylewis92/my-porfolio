@@ -53,7 +53,7 @@
 
 /*experience*/
 .experience-heading {
-  font-size: 25px;
+  font-size: $about-title-font-size;
 }
 
 .experience-list {
@@ -95,7 +95,7 @@
   float: right;
 }
 .skills-heading {
-  font-size: 25px;
+  font-size: $about-title-font-size;
 }
 
 .single-skill{
@@ -106,7 +106,6 @@
   .skills-heading {
     font-size: 20px;
   }
-
   .skill-list {
     width: 100%;
     float: left;
@@ -119,17 +118,56 @@
     font-size: 20px;
   }
 }
+
+/*education*/
+.education {
+  margin-top: 40px;
+}
+
+.education-title {
+  font-size: $about-title-font-size;
+}
+
+.education-school {
+  padding-top: 10px;
+  font-weight: 700;
+}
+
+.education-degree {
+  font-size: 15px;
+}
+
+@media (max-width: 700px) {
+  .education-title {
+    font-size: 20px;
+  }
+  .education-school, .education-degree {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .education-school {
+    font-size: $small-p-font-size;
+  }
+}
+
+
 /*about this website*/
 .about-website-heading {
-  font-size: 25px;
+  font-size: $about-title-font-size;
   margin-bottom: 15px;
 }
 
 .about-website-section {
-  margin: 60px auto;
+  margin: 40px auto;
 }
 
 .underline {
+  text-decoration: underline;
+}
+
+.underline:hover {
   text-decoration: underline;
 }
 
