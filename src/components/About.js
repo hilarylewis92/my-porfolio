@@ -165,8 +165,7 @@ export default class About extends Component {
           <section className='resume-section'>
             <Link to='/resume'
               activeClassName='active'
-              className='resume-link button'
-              target='_blank'>
+              className='resume-link button'>
               Resume &rarr;
             </Link>
           </section>
