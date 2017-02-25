@@ -19,7 +19,7 @@ export default class Contact extends Component{
   render() {
     return (
       <div>
-        <div className="Contact">
+        <div className='Contact'>
           <section className='contact-section'>
             <h4 className='contact-title'>
               Get in Touch
