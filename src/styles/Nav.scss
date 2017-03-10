@@ -5,20 +5,21 @@
 }
 
 .hl-logo {
+  background: url('../images/icon.png') no-repeat;
+  width: 60px;
+  height: 60px;
   position: fixed;
-  color: $dark-blue-color;
   left: 0;
   top: 0;
   z-index: 10;
-  margin: 25px;
-  letter-spacing: -4px;
-  background: none;
-  font-weight: 100;
-  font-size: 25px;
+  margin: 20px;
+  transition: 1s;
 }
 
 .hl-logo:hover {
+  transition: 1s;
   cursor: pointer;
+  background-image: url('../images/icon-hover.png');
 }
 
 /*dropdown*/
