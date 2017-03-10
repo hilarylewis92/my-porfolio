@@ -65,10 +65,10 @@ export default class About extends Component {
           role='none'
         />
 
+      <section className='about-me'>
         <h2>
           About Me
         </h2>
-        <section className='about-me'>
           <p>
             As a creative front end developer, I value using both my left and right brain. My technical skills help me solve challenging problems and write efficient code, while my creative side encourages me to design clean and unique user interfaces on applications and websites.
           </p>
@@ -81,9 +81,10 @@ export default class About extends Component {
               EXPERIENCE
             </h3>
 
-            {this.state.experience.map(item => {
+            {this.state.experience.map((item, i) => {
               return(
-                <div className='single-experience'>
+                <div className='single-experience'
+                  key={i}>
                   <h4 className='position'>
                     {item.position}
                   </h4>
@@ -105,9 +106,10 @@ export default class About extends Component {
               SKILLS
             </h3>
 
-            {this.state.skills.map(item => {
+            {this.state.skills.map((item, i) => {
               return(
-                <h4 className='single-skill'>
+                <h4 className='single-skill'
+                  key={i}>
                   {item}
                 </h4>
               )
@@ -138,7 +140,7 @@ export default class About extends Component {
             </h3>
 
             <p className='about-website'>
-              I build this website using <a href ='https://facebook.github.io/react/'
+              I built this website using <a href ='https://facebook.github.io/react/'
                 target='_blank'
                 className='underline'>
                 React
@@ -152,7 +154,7 @@ export default class About extends Component {
                  Create React App
               </a>.
 
-              I used SASS for styling and responsiveness and fonts are served through <a href ='https://fonts.google.com/'
+              I used SASS for styling and responsiveness. Fonts are served through <a href ='https://fonts.google.com/'
                 target='_blank'
                 className='underline'>
                  Google Fonts

@@ -10,6 +10,7 @@
 }
 
 .about-me {
+  margin-top: 200px;
   text-align: left;
   width: 70%;
   opacity: 0;
@@ -46,15 +47,10 @@
   padding-top: $main-padding;
 }
 .underline {
-  text-decoration: underline;
   font-size: $body-font-size;
-  &:hover {
-    text-decoration: underline;
-  }
 }
 
 /*resume page*/
-// .Resume {
-//   text-align: center;
-//   letter-spacing: $letter-spacing;
-// }
+.Resume {
+  text-align: center;
+}

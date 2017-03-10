@@ -6,7 +6,7 @@
   left: 0;
   top: 0;
   z-index: 10;
-  margin: 30px $main-margin;
+  margin: 10px $main-margin;
   @include transition($transition-duration ease-in-out);
   &:hover {
     cursor: pointer;
@@ -27,7 +27,7 @@
   top: 0;
   right: 0;
   z-index: 1000;
-  margin: $main-margin;
+  margin: 20px $main-margin;
   &:hover{
     cursor: pointer;
   }
