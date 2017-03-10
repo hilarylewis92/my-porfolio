@@ -1,11 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400|Roboto|Work+Sans:400,700');
 
-@import 'variables';
-@import 'reset';
-@import 'App';
-@import 'Home';
-@import 'Nav';
-@import 'About';
-@import 'Contact';
-@import 'Projects';
-@import 'Footer';
+
+@import 'config/all';
+@import 'partials/all';

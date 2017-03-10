@@ -1,0 +1,40 @@
+.hl-logo {
+  background: url('../images/icon.png') no-repeat;
+  width: $logo-size;
+  height: $logo-size;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  margin: 15px;
+  @include transition($transition-duration ease-in-out);
+  &:hover {
+    cursor: pointer;
+    background-image: url('../images/icon-hover.png');
+  }
+}
+
+/*dropdown*/
+.Dropdown {
+  width: 100vw;
+  height: 100vh;
+}
+
+.hamburger-menu {
+  z-index: 1000;
+  margin: 30px;
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+.menu {
+  position: fixed;
+  z-index: 10;
+  text-align: center;
+  li {
+    display: block;
+    padding-top: 15vh;
+    background: white;
+  }
+}

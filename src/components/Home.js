@@ -32,26 +32,23 @@ export default class Home extends Component {
     return (
       <div className='Home'>
         <section className='hero-text'>
-          <h3 className='light'>
+          <h1 className='light'>
             Hilary Lewis.
-          </h3>
-          <h3 className='light'>
+          </h1>
+          <h1 className='light'>
             Mathematical. Creative.
-          </h3>
-          <h3 className='light'>
+          </h1>
+          <h1 className='light'>
             Teacher. Learner.
-          </h3>
-          <h3
+          </h1>
+          <h1
             className='bold'>
             Front End <span className='red'>Developer.</span>
-          </h3>
-          <h3 className='light'>
+          </h1>
+          <h1 className='light'>
             Denver, Colorado.
-          </h3>
+          </h1>
         </section>
-        <div className='home-footer'>
-          <Footer />
-        </div>
       </div>
     )
   }
