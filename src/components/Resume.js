@@ -12,13 +12,11 @@ export default class Resume extends Component {
           seamless>
         </iframe>
 
-        <section className='resume-section'>
-          <Link to='/about'
-            activeClassName='active'
-            className='about-link button'>
-            About &larr;
-          </Link>
-        </section>
+        <Link to='/about'
+          activeClassName='active'
+          className='about-link'>
+          <button>About &larr;</button>
+        </Link>
 
       </div>
     )

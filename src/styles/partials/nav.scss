@@ -6,7 +6,7 @@
   left: 0;
   top: 0;
   z-index: 10;
-  margin: 15px;
+  margin: 30px $main-margin;
   @include transition($transition-duration ease-in-out);
   &:hover {
     cursor: pointer;
@@ -18,23 +18,25 @@
 .Dropdown {
   width: 100vw;
   height: 100vh;
+  background-color: white;
+  position: fixed;
 }
 
 .hamburger-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
   z-index: 1000;
-  margin: 30px;
+  margin: $main-margin;
   &:hover{
     cursor: pointer;
   }
 }
 
 .menu {
-  position: fixed;
-  z-index: 10;
   text-align: center;
   li {
     display: block;
     padding-top: 15vh;
-    background: white;
   }
 }

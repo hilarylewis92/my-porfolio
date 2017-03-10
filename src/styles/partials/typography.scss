@@ -1,8 +1,55 @@
 h1 {
   font-family: $title-font-stack;
+  font-size: $hero-title-font-size;
+  color: $dark-blue-color;
 }
 
-a, button {
+h2 {
+  font-family: $title-font-stack;
+  font-size: $title-font-size;
+  color: $dark-blue-color;
+  padding: $main-padding;
+}
+
+h3 {
+  color: $dark-blue-color;
+  font-family: $title-font-stack;
+  font-size: $medium-title-font-size;
+}
+
+h4 {
+  color: $blue-color;
+  font-family: $title-font-stack;
+  font-size: $small-title-font-size;
+}
+
+h5 {
+  color: $blue-color;
+  font-family: $title-font-stack;
+  font-size: 15px;
+  padding: $small-padding 0px;
+}
+
+h6 {
+  color: $gray-color;
+  font-family: $title-font-stack;
+  font-size: 15px;
+}
+
+p {
+  font-family: $body-font-stack;
+  font-size: $body-font-size;
+  line-height: $body-line-height;
+  color: $blue-color;
+  padding-bottom: $main-padding;
+}
+
+a {
   font-family: $link-font-stack;
   font-size: $link-font-size;
+}
+
+button {
+  font-family: $button-font-stack;
+  font-size: $button-font-size;
 }
