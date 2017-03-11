@@ -40,6 +40,12 @@ $transition-duration: 0.5s;
 
 //margin
 $main-margin: 50px;
+$small-margin: 5px;
 $top-margin: 80px;
 $main-padding: 20px;
 $small-padding: 10px;
+
+// media queries
+$break-small: 475px;
+$break-medium: 625px;
+$break-large: 850px;

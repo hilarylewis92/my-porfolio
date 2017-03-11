@@ -2,6 +2,16 @@ h1 {
   font-family: $title-font-stack;
   font-size: $hero-title-font-size;
   color: $dark-blue-color;
+  line-height: 120%;
+  @media screen and (max-width: $break-large) {
+    font-size: $hero-title-font-size*.7;
+  }
+  @media screen and (max-width: $break-medium) {
+    font-size: $hero-title-font-size*.5;
+  }
+  @media screen and (max-width: $break-small) {
+    font-size: $hero-title-font-size*.4;
+  }
 }
 
 h2 {

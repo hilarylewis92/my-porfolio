@@ -4,6 +4,9 @@
   opacity: 0;
   position: absolute;
   z-index: -1;
+  @media screen and (max-width: $break-small) {
+    margin: $small-margin;
+  }
 }
 
 .red {

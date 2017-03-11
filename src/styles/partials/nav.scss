@@ -31,6 +31,9 @@
   &:hover{
     cursor: pointer;
   }
+  @media screen and (max-width: $break-small) {
+    margin: $small-margin;
+  }
 }
 
 .menu {
