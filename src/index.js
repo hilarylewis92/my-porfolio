@@ -6,7 +6,6 @@ import Nav from './components/Nav/Nav'
 import Home from './components/Home'
 import About from './components/About'
 import Projects from './components/Projects'
-import Project from './components/Project'
 import Contact from './components/Contact'
 import Resume from './components/Resume'
 import Footer from './components/Footer'
@@ -21,7 +20,6 @@ const Root = () => {
         <Match exactly pattern="/" component={Home} />
         <Match exactly pattern="/about" component={About} />
         <Match exactly pattern="/projects" component={Projects} />
-        <Match pattern="/projects/:id" component={Project} />
         <Match exactly pattern="/contact" component={Contact} />
         <Match exactly pattern="/resume" component={Resume} />
         <Footer />
