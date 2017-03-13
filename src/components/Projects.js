@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
-import Masonry from 'react-masonry-component'
 import { Link } from 'react-router'
 import { TweenLite, Linear } from 'gsap'
 
-import Project from './Project'
 import ProjectsList from './ProjectsList.js'
 
 var masonryOptions = {
@@ -19,46 +17,66 @@ export default class Projects extends Component {
   gsapProjectsAnimation() {
     TweenLite.to('.Projects', 1.5,
       {
-        opacity:1,
-        ease:Linear.easeNone
+        opacity: 1,
+        ease: Linear.easeNone
       }
     )
   }
 
   render() {
     return (
-      <div>
-        <section className='Projects'>
-          <h3
-            className='projects-title'>
-            My Projects
-          </h3>
+      <div className='Projects'>
+        <h2
+          className='projects-title'>
+          My Projects
+        </h2>
 
-          <Masonry
-            className={'projects-list'}
-            elementType={'ul'}
-            options={masonryOptions}
-            disableImagesLoaded={false}
-            updateOnEachImageLoad={false}>
-
-            {ProjectsList.map((project, i) => {
-              return(
-                <li
-                  className='single-project'
-                  key={project.id}>
-                  <Link
-                    to={`/projects/${project.id}`}>
-                    <img
-                      className='project-image'
-                      src={project.src}
-                      role='none'
+        <ul className='projects-list'>
+          {ProjectsList.map((project, i) => {
+            return(
+              <li
+                className='single-project'
+                key={project.id}>
+                <section className='project-left'>
+                  <img
+                    className='project-image'
+                    src={project.src}
+                    role='none'
                     />
-                </Link>
+                  <button
+                    className='project-button'>
+                    <a
+                      className='project-url'
+                      href={project.url}
+                      target='_blank'>
+                      view application
+                    </a>
+                  </button>
+                  <button
+                    className='project-button'>
+                    <a
+                      className='project-github'
+                      href={project.github}
+                      target='_blank'>
+                      view code
+                    </a>
+                  </button>
+                </section>
+
+                <section className='project-right'>
+                  <h3
+                    className='project-title'>
+                    {project.title}
+                  </h3>
+                  <p
+                    className='project-description'>
+                    {project.description}
+                  </p>
+                </section>
               </li>
-              )
-            })}
-          </Masonry>
-        </section>
+            )
+          })}
+        </ul>
       </div>
     )
   }
