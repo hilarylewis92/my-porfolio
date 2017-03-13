@@ -12,6 +12,9 @@
     cursor: pointer;
     background-image: url('../images/icon-hover.png');
   }
+  @media screen and (max-width: $break-small) {
+    margin: $small-margin;
+  }
 }
 
 /*dropdown*/
@@ -32,7 +35,7 @@
     cursor: pointer;
   }
   @media screen and (max-width: $break-small) {
-    margin: $small-margin;
+    margin: $small-margin+10px;
   }
 }
 

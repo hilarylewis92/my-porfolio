@@ -4,11 +4,17 @@
   text-align: center;
   opacity: 0;
   margin-top: $top-margin;
+  @media screen and (max-width: $break-small) {
+    width: 100%;
+  }
 }
 
 .contact-email {
   font-size: 30px;
   padding: $main-padding;
+  @media screen and (max-width: $break-small) {
+    font-size: $body-font-size;
+  }
 }
 
 .contact-summary{

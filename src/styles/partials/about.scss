@@ -14,18 +14,27 @@
   text-align: left;
   width: 70%;
   opacity: 0;
+  @media screen and (max-width: $break-small) {
+    width: 90%;
+  }
 }
 
 /*experience*/
 .experience-list {
   width: 70%;
   float: left;
+  @media screen and (max-width: $break-small) {
+    width: 90%;
+  }
 }
 
 .single-experience{
   padding: $main-padding 0;
   width: 90%;
   border-bottom: 1px solid $blue-color;
+  @media screen and (max-width: $break-small) {
+    margin: 0px 0px $small-margin $small-margin;
+  }
 }
 
 /*skills*/
@@ -40,6 +49,16 @@
 
 .education-school {
   padding-top: $main-padding;
+  @media screen and (max-width: $break-small) {
+    margin-left: $small-margin;
+  }
+}
+
+.education-degree {
+  border-bottom: 1px solid $blue-color;
+    @media screen and (max-width: $break-small) {
+      margin-left: $small-margin;
+    }
 }
 
 /*about this website*/

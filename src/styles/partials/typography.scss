@@ -9,9 +9,6 @@ h1 {
   @media screen and (max-width: $break-medium) {
     font-size: $hero-title-font-size*.5;
   }
-  @media screen and (max-width: $break-small) {
-    font-size: $hero-title-font-size*.4;
-  }
 }
 
 h2 {
@@ -20,12 +17,18 @@ h2 {
   color: $dark-blue-color;
   padding: $main-padding;
   text-align: center;
+  @media screen and (max-width: $break-small) {
+    font-size: $medium-title-font-size;
+  }
 }
 
 h3 {
   color: $dark-blue-color;
   font-family: $title-font-stack;
   font-size: $medium-title-font-size;
+  @media screen and (max-width: $break-small) {
+    font-size: $small-title-font-size+5px;
+  }
 }
 
 h4 {
