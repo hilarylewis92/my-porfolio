@@ -35,7 +35,6 @@ $link-font-size: 35px;
   -ms-transition: $args;
   transition: $args;
 }
-
 $transition-duration: 0.5s;
 
 //margin
@@ -46,6 +45,6 @@ $main-padding: 20px;
 $small-padding: 10px;
 
 // media queries
-$break-small: 475px;
-$break-medium: 625px;
+$break-small: 525px;
+$break-medium: 675px;
 $break-large: 850px;

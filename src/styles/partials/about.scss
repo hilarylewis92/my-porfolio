@@ -14,7 +14,7 @@
   text-align: left;
   width: 70%;
   opacity: 0;
-  @media screen and (max-width: $break-small) {
+  @media screen and (max-width: $break-medium) {
     width: 90%;
   }
 }
@@ -55,10 +55,9 @@
 }
 
 .education-degree {
-  border-bottom: 1px solid $blue-color;
-    @media screen and (max-width: $break-small) {
-      margin-left: $small-margin;
-    }
+  @media screen and (max-width: $break-small) {
+    margin-left: $small-margin;
+  }
 }
 
 /*about this website*/
