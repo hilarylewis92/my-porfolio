@@ -9,6 +9,7 @@ import Projects from './components/Projects'
 import Project from './components/Project'
 import Contact from './components/Contact'
 import Resume from './components/Resume'
+import Footer from './components/Footer'
 
 import './styles/index.scss'
 
@@ -23,6 +24,7 @@ const Root = () => {
         <Match pattern="/projects/:id" component={Project} />
         <Match exactly pattern="/contact" component={Contact} />
         <Match exactly pattern="/resume" component={Resume} />
+        <Footer />
       </div>
     </BrowserRouter>
   )

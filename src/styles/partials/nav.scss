@@ -1,0 +1,48 @@
+.hl-logo {
+  background: url('../images/icon.png') no-repeat;
+  width: $logo-size;
+  height: $logo-size;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  margin: $small-margin $main-margin;
+  @include transition($transition-duration ease-in-out);
+  &:hover {
+    cursor: pointer;
+    background-image: url('../images/icon-hover.png');
+  }
+  @media screen and (max-width: $break-small) {
+    margin: $small-margin;
+  }
+}
+
+/*dropdown*/
+.Dropdown {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  position: fixed;
+}
+
+.hamburger-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  margin: 20px $main-margin;
+  &:hover{
+    cursor: pointer;
+  }
+  @media screen and (max-width: $break-small) {
+    margin: $small-margin+10px;
+  }
+}
+
+.menu {
+  text-align: center;
+  li {
+    display: block;
+    padding-top: 15vh;
+  }
+}

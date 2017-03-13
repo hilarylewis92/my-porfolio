@@ -20,7 +20,6 @@ export default function Hamburger(props) {
 		container: {
 			width,
 			height,
-			position: 'fixed',
 			right,
 			transform: `rotate(${props.rotate}deg)`
 		},
@@ -77,15 +76,15 @@ export default function Hamburger(props) {
 		</div>
 	)
 }
-
-Hamburger.PropTypes = {
-	isOpen: React.PropTypes.bool.isRequired,
-	menuClicked: React.PropTypes.func.isRequired,
-	width: React.PropTypes.number,
-	height: React.PropTypes.number,
-	strokeWidth: React.PropTypes.number,
-	rotate: React.PropTypes.number,
-	color: React.PropTypes.string,
-	borderRadius: React.PropTypes.number,
-	animationDuration: React.PropTypes.number
-}
+//
+// Hamburger.PropTypes = {
+// 	isOpen: React.PropTypes.bool.isRequired,
+// 	menuClicked: React.PropTypes.func.isRequired,
+// 	width: React.PropTypes.number,
+// 	height: React.PropTypes.number,
+// 	strokeWidth: React.PropTypes.number,
+// 	rotate: React.PropTypes.number,
+// 	color: React.PropTypes.string,
+// 	borderRadius: React.PropTypes.number,
+// 	animationDuration: React.PropTypes.number
+// }

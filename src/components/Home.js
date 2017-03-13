@@ -9,19 +9,18 @@ export default class Home extends Component {
   }
 
   gsapHeroAnimation() {
-    TweenLite.to('.hero-text', 1.5,
+    TweenLite.to('.Home', 1,
       {
-        top: 200,
+        top: 150,
         opacity: 1,
-        lazy: true,
       }
     )
-    TweenLite.to('.light', 4,
+    TweenLite.to('.light', 3,
       {
         opacity: 0.2,
       }
     )
-    TweenLite.to('.red', 4,
+    TweenLite.to('.red', 3,
       {
         color: '#FE5F55',
       }
@@ -31,27 +30,25 @@ export default class Home extends Component {
   render() {
     return (
       <div className='Home'>
-        <section className='hero-text'>
-          <h3 className='light'>
-            Hilary Lewis.
-          </h3>
-          <h3 className='light'>
-            Mathematical. Creative.
-          </h3>
-          <h3 className='light'>
-            Teacher. Learner.
-          </h3>
-          <h3
-            className='bold'>
-            Front End <span className='red'>Developer.</span>
-          </h3>
-          <h3 className='light'>
-            Denver, Colorado.
-          </h3>
-        </section>
-        <div className='home-footer'>
-          <Footer />
-        </div>
+        <h1 className='light'>
+          Hilary Lewis.
+        </h1>
+        <h1 className='light'>
+          Mathematical. Creative.
+        </h1>
+        <h1 className='light'>
+          Teacher. Learner.
+        </h1>
+        <h1
+          className='bold'>
+          Front End
+          <span className='red'>
+            Developer.
+          </span>
+        </h1>
+        <h1 className='light'>
+          Denver, Colorado.
+        </h1>
       </div>
     )
   }

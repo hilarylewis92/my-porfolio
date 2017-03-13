@@ -1,0 +1,11 @@
+a, button {
+  color: $dark-blue-color;
+  @include transition(color $transition-duration ease-in-out);
+  &:hover {
+    color: $red-color;
+  }
+}
+
+*:focus {
+  outline: none;
+}

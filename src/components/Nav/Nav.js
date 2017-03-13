@@ -22,9 +22,9 @@ export default class Header extends Component {
     return (
       <div role="nav" className='Header'>
         <Link
-          to='/'
-          className='hl-logo'>
-          HL
+          to='/'>
+          <div className='hl-logo'>
+          </div>
         </Link>
 
         <Hamburger

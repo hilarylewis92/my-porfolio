@@ -1,0 +1,74 @@
+.About {
+  text-align: center;
+}
+
+.hilary-lewis-image {
+  margin-top: $top-margin;
+  height: 250px;
+  border-radius: 50%;
+  opacity: 0;
+}
+
+.about-me {
+  margin-top: 200px;
+  text-align: left;
+  width: 70%;
+  opacity: 0;
+  @media screen and (max-width: $break-medium) {
+    width: 90%;
+  }
+}
+
+/*experience*/
+.experience-list {
+  width: 70%;
+  float: left;
+  @media screen and (max-width: $break-small) {
+    width: 90%;
+  }
+}
+
+.single-experience{
+  padding: $main-padding 0;
+  width: 90%;
+  border-bottom: 1px solid $blue-color;
+  @media screen and (max-width: $break-small) {
+    margin: 0px 0px $small-margin $small-margin;
+  }
+}
+
+/*skills*/
+.single-skill{
+  padding: 12px;
+}
+
+/*education*/
+.education {
+  padding: $main-padding 0px;
+}
+
+.education-school {
+  padding-top: $main-padding;
+  @media screen and (max-width: $break-small) {
+    margin-left: $small-margin;
+  }
+}
+
+.education-degree {
+  @media screen and (max-width: $break-small) {
+    margin-left: $small-margin;
+  }
+}
+
+/*about this website*/
+.about-website {
+  padding-top: $main-padding;
+}
+.underline {
+  font-size: $body-font-size;
+}
+
+/*resume page*/
+.Resume {
+  text-align: center;
+}

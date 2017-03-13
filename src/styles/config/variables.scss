@@ -1,0 +1,50 @@
+//colors
+$dark-blue-color: #4F6367;
+$blue-color: #7A9E9F;
+$gray-color: #B8D8D8;
+$white-color: #EEF5DB;
+$red-color: #FE5F55;
+
+
+//image sizes
+$icon-size: 33px;
+$logo-size: 60px;
+
+//fonts
+$title-font-stack: 'Work Sans', sans-serif;
+$hero-title-font-size: 65px;
+$title-font-size: 50px;
+$medium-title-font-size: 30px;
+$small-title-font-size: 20px;
+
+
+$body-font-stack: 'Roboto', sans-serif;
+$body-font-size: 18px;
+$body-line-height: 150%;
+
+$button-font-stack: 'Montserrat', sans-serif;
+$button-font-size: 15px;
+
+$link-font-stack: 'Montserrat', sans-serif;
+$link-font-size: 35px;
+
+//transitions
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  transition: $args;
+}
+$transition-duration: 0.5s;
+
+//margin
+$main-margin: 50px;
+$small-margin: 15px;
+$top-margin: 80px;
+$main-padding: 20px;
+$small-padding: 10px;
+
+// media queries
+$break-small: 525px;
+$break-medium: 675px;
+$break-large: 850px;

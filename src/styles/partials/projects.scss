@@ -1,0 +1,54 @@
+.Projects {
+  opacity: 0;
+}
+
+.projects-title {
+  margin: $main-margin;
+}
+
+.single-project {
+  height: 90vh;
+  margin-left: $main-margin;
+  border-bottom: 1px solid $blue-color;
+  @media screen and (max-width: 1000px) {
+    margin: $small-margin;
+  }
+}
+
+.project-left {
+  width: 50%;
+  float: left;
+  @media screen and (max-width: 1000px) {
+    width: 100%;
+  }
+}
+
+.project-right {
+  width: 50%;
+  float: right;
+  @media screen and (max-width: 1000px) {
+    width: 100%;
+  }
+}
+
+.project-image {
+  width: 450px;
+  @media screen and (max-width: $break-small) {
+    width: 100%;
+  }
+}
+
+.project-button {
+  margin: 10px;
+}
+.project-url, .project-github {
+  font-size: $button-font-size;
+}
+
+.project-title {
+  padding: $main-padding 0px;
+  margin-top: $main-margin;
+  @media screen and (max-width: 1000px) {
+    margin-top: 0px;
+  }
+}
