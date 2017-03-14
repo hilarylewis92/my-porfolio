@@ -22,6 +22,10 @@ export default function Dropdown(props)  {
         <li>About</li>
       </Link>
 
+      <Link to="/blog">
+        <li>Blog</li>
+      </Link>
+
       <Link to="/contact">
         <li>Contact</li>
       </Link>
