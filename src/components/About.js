@@ -61,7 +61,7 @@ export default class About extends Component {
         <img
           className='hilary-lewis-image'
           src={require ('../images/hilary-lewis.png')}
-          role='none'
+          role='presentation'
         />
 
       <section className='about-me'>
@@ -139,25 +139,25 @@ export default class About extends Component {
             </h3>
 
             <p className='about-website'>
-              I built this website using <a href ='https://facebook.github.io/react/'
+              I built this website using <a href='https://facebook.github.io/react/'
                 target='_blank'
                 className='underline'>
                 React
-              </a>, <a href ='https://github.com/ReactTraining/react-router/tree/master/docs'
+              </a>, <a href='https://github.com/ReactTraining/react-router/tree/master/docs'
                 target='_blank'
                 className='underline'>
                  React Router
-              </a>, and <a href ='https://github.com/facebookincubator/create-react-app'
+              </a>, and <a href='https://github.com/facebookincubator/create-react-app'
                 target='_blank'
                 className='underline'>
                  Create React App
               </a>.
 
-              I used SASS for styling and responsiveness. Fonts are served through <a href ='https://fonts.google.com/'
+              I used SASS for styling and responsiveness. Fonts are served through <a href='https://fonts.google.com/'
                 target='_blank'
                 className='underline'>
                  Google Fonts
-              </a>. To see the code I developed for this website, visit my <a href = 'https://github.com/hilarylewis92/my-porfolio'
+              </a>. To see the code I developed for this website, visit my <a href='https://github.com/hilarylewis92/my-porfolio'
                 className='underline'
                 target='_blank'>
                  github
