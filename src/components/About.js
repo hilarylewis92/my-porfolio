@@ -167,11 +167,12 @@ export default class About extends Component {
           </section>
         </section>
 
-        <Link to='/resume'
+        <a href='https://resume.creddle.io/resume/fqzo0ru7jy5'
           activeClassName='active'
-          className='resume-link button'>
+          className='resume-link button'
+          target='_blank'>
           <button>Resume &rarr;</button>
-        </Link>
+        </a>
       </div>
     )
   }
