@@ -12,7 +12,7 @@
     cursor: pointer;
     background-image: url('../images/icon-hover.png');
   }
-  @media screen and (max-width: $break-small) {
+  @media screen and (max-width: $break-medium) {
     margin: $small-margin;
   }
 }
@@ -34,7 +34,7 @@
   &:hover{
     cursor: pointer;
   }
-  @media screen and (max-width: $break-small) {
+  @media screen and (max-width: $break-medium) {
     margin: $small-margin+10px;
   }
 }
