@@ -37,7 +37,7 @@ export default class Projects extends Component {
                   <img
                     className='project-image'
                     src={project.src}
-                    role='none'
+                    role='presentation'
                     />
                 </section>
 

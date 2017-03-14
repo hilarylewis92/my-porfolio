@@ -1,6 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
-import { BrowserRouter, Match, Miss } from 'react-router'
+import { BrowserRouter, Match } from 'react-router'
 
 import Nav from './components/Nav/Nav'
 import Home from './components/Home'
