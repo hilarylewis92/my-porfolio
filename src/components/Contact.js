@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import { TweenLite, Linear } from 'gsap'
 
-import Footer from './Footer.js'
-
 export default class Contact extends Component{
   componentDidMount() {
     this.gsapProjectsAnimation()

@@ -1,11 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router'
 
-import Footer from '../Footer.js'
-
 export default function Dropdown(props)  {
   return (
-    <div role='nav'
+    <div role='navigation'
       className='Dropdown'
       onClick={props.menuClicked}>
 

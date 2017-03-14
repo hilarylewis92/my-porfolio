@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import { TweenLite, Linear } from 'gsap'
+import { TweenLite } from 'gsap'
 
 export default class Footer extends Component{
 

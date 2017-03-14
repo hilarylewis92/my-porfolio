@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router'
 import { TweenLite, Linear } from 'gsap'
 
 import ProjectsList from './ProjectsList.js'
@@ -37,7 +36,7 @@ export default class Projects extends Component {
                   <img
                     className='project-image'
                     src={project.src}
-                    role='none'
+                    role='presentation'
                     />
                 </section>
 

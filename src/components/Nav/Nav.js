@@ -20,7 +20,7 @@ export default class Header extends Component {
 
   render() {
     return (
-      <div role="nav" className='Header'>
+      <div role="navigation" className='Header'>
         <Link
           to='/'>
           <div className='hl-logo'>
