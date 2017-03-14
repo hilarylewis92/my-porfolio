@@ -34,7 +34,7 @@ export default class Header extends Component {
           height={15}
           strokeWidth={2}
           rotate={0}
-          color='#4F6367'
+          color='#1b3c59'
           animationDuration={0.5}
           right={0}
         />

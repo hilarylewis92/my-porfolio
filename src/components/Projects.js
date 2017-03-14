@@ -4,10 +4,6 @@ import { TweenLite, Linear } from 'gsap'
 
 import ProjectsList from './ProjectsList.js'
 
-var masonryOptions = {
-  transitionDuration: 1
-}
-
 export default class Projects extends Component {
 
   componentDidMount() {

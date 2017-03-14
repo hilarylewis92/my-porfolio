@@ -4,10 +4,12 @@ h1 {
   color: $dark-blue-color;
   line-height: 120%;
   @media screen and (max-width: $break-large) {
-    font-size: $hero-title-font-size*.7;
+    font-size: $hero-title-font-size*.9;
+    letter-spacing: -2px;
   }
   @media screen and (max-width: $break-medium) {
-    font-size: $hero-title-font-size*.5;
+    font-size: $hero-title-font-size*.6;
+    letter-spacing: -3px;
   }
 }
 

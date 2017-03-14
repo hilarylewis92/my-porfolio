@@ -61,7 +61,7 @@ export default class About extends Component {
       <div className='About'>
         <img
           className='hilary-lewis-image'
-          src={require ('../images/hilary-lewis.jpg')}
+          src={require ('../images/hilary-lewis.png')}
           role='none'
         />
 
