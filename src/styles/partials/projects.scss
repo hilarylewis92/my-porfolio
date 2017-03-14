@@ -9,7 +9,7 @@
 .single-project {
   height: 90vh;
   margin-left: $main-margin;
-  border-bottom: 1px solid $blue-color;
+  // border-bottom: 1px solid $blue-color;
   @media screen and (max-width: 1000px) {
     margin: $small-margin;
   }
@@ -33,6 +33,7 @@
 
 .project-image {
   width: 450px;
+  margin-left: $main-margin;
   @media screen and (max-width: $break-small) {
     width: 100%;
   }
@@ -41,6 +42,7 @@
 .project-button {
   margin: 10px;
 }
+
 .project-url, .project-github {
   font-size: $button-font-size;
 }
@@ -51,4 +53,8 @@
   @media screen and (max-width: 1000px) {
     margin-top: 0px;
   }
+}
+
+.project-description {
+  margin-right: $main-margin;
 }
