@@ -166,7 +166,12 @@ export default class About extends Component {
           </section>
         </section>
 
+        <a
+          className='resume-link button'
+          href='https://resume.creddle.io/resume/fqzo0ru7jy5'
+          target='_blank'>
           <button>Resume &rarr;</button>
+        </a>
       </div>
     )
   }
