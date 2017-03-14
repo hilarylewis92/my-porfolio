@@ -22,7 +22,7 @@ export default class Home extends Component {
     )
     TweenLite.to('.red', 3,
       {
-        color: '#FE5F55',
+        color: '#11bfae',
       }
     )
   }

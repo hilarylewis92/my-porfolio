@@ -7,6 +7,7 @@
   height: 250px;
   border-radius: 50%;
   opacity: 0;
+  border: 5px solid $dark-blue-color;
 }
 
 .about-me {
@@ -66,9 +67,4 @@
 }
 .underline {
   font-size: $body-font-size;
-}
-
-/*resume page*/
-.Resume {
-  text-align: center;
 }

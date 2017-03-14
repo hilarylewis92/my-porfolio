@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { TweenLite, Linear } from 'gsap'
-import { Link } from 'react-router'
 
 export default class About extends Component {
   constructor() {
@@ -61,7 +60,7 @@ export default class About extends Component {
       <div className='About'>
         <img
           className='hilary-lewis-image'
-          src={require ('../images/hilary-lewis.jpg')}
+          src={require ('../images/hilary-lewis.png')}
           role='none'
         />
 
@@ -167,11 +166,12 @@ export default class About extends Component {
           </section>
         </section>
 
-        <Link to='/resume'
-          activeClassName='active'
-          className='resume-link button'>
+        <a
+          className='resume-link button'
+          href='https://resume.creddle.io/resume/fqzo0ru7jy5'
+          target='_blank'>
           <button>Resume &rarr;</button>
-        </Link>
+        </a>
       </div>
     )
   }

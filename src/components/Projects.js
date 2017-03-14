@@ -4,10 +4,6 @@ import { TweenLite, Linear } from 'gsap'
 
 import ProjectsList from './ProjectsList.js'
 
-var masonryOptions = {
-  transitionDuration: 1
-}
-
 export default class Projects extends Component {
 
   componentDidMount() {
@@ -43,6 +39,17 @@ export default class Projects extends Component {
                     src={project.src}
                     role='none'
                     />
+                </section>
+
+                <section className='project-right'>
+                  <h3
+                    className='project-title'>
+                    {project.title}
+                  </h3>
+                  <p
+                    className='project-description'>
+                    {project.description}
+                  </p>
                   <button
                     className='project-button'>
                     <a
@@ -61,17 +68,6 @@ export default class Projects extends Component {
                       view code
                     </a>
                   </button>
-                </section>
-
-                <section className='project-right'>
-                  <h3
-                    className='project-title'>
-                    {project.title}
-                  </h3>
-                  <p
-                    className='project-description'>
-                    {project.description}
-                  </p>
                 </section>
               </li>
             )

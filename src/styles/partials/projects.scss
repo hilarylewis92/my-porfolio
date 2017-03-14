@@ -9,8 +9,11 @@
 .single-project {
   height: 90vh;
   margin-left: $main-margin;
-  border-bottom: 1px solid $blue-color;
   @media screen and (max-width: 1000px) {
+    height: 100vh;
+    margin: $main-margin;
+  }
+  @media screen and (max-width: $break-small) {
     margin: $small-margin;
   }
 }
@@ -19,6 +22,7 @@
   width: 50%;
   float: left;
   @media screen and (max-width: 1000px) {
+    border-top: 1px solid $blue-color;
     width: 100%;
   }
 }
@@ -26,6 +30,7 @@
 .project-right {
   width: 50%;
   float: right;
+  margin-bottom: $main-margin;
   @media screen and (max-width: 1000px) {
     width: 100%;
   }
@@ -33,14 +38,20 @@
 
 .project-image {
   width: 450px;
+  margin-left: $main-margin;
+  @media screen and (max-width: 1050px) {
+    margin: 0px $small-margin;
+  }
   @media screen and (max-width: $break-small) {
     width: 100%;
+    margin: 0px;
   }
 }
 
 .project-button {
   margin: 10px;
 }
+
 .project-url, .project-github {
   font-size: $button-font-size;
 }
@@ -48,7 +59,23 @@
 .project-title {
   padding: $main-padding 0px;
   margin-top: $main-margin;
+  @media screen and (max-width: 1050px) {
+    margin-left: $small-margin;
+  }
   @media screen and (max-width: 1000px) {
     margin-top: 0px;
+  }
+  @media screen and (max-width: $break-small) {
+    margin: $small-margin;
+  }
+}
+
+.project-description {
+  margin-right: $main-margin;
+  @media screen and (max-width: 1050px) {
+    margin: 0px $small-margin;
+  }
+  @media screen and (max-width: $break-small) {
+    margin: $small-margin;
   }
 }
