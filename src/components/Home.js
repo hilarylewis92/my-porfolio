@@ -32,7 +32,7 @@ export default class Home extends Component {
           Hilary Lewis.
         </h1>
         <h1 className='light'>
-          Mathematical. Creative.
+          Mathematician. Creative.
         </h1>
         <h1 className='light'>
           Teacher. Learner.

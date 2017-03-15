@@ -72,7 +72,7 @@ export default class About extends Component {
             As a creative front end developer, I value using both my left and right brain. My technical skills help me solve challenging problems and write efficient code, while my creative side encourages me to design clean and unique user interfaces on applications and websites.
           </p>
           <p>
-            As a lifelong learner, I am always looking to develop skills that will benefit my life holistically. Whether it's attending Turing School of Software and Design to learn the languages required of a front end web developer, graduating with a Bachelor of Mathematics from Baylor University or becoming a licensed yoga instructor, learning is my most rewarding passion.
+            I'm a lifelong learner and am always looking to develop skills that will benefit me holistically. Whether it's attending Turing School of Software and Design to learn the languages required of a front end web developer, graduating with a Bachelor of Mathematics from Baylor University, or becoming a licensed yoga instructor, learning is my most rewarding passion.
           </p>
 
           <section className='experience-list'>
