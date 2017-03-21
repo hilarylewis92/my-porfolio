@@ -1,6 +1,7 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
+  "homepage": "http://portfolio.hilarylewis.co/",
   "private": true,
   "devDependencies": {
     "custom-react-scripts": "0.0.23",
